@@ -1,0 +1,30 @@
+{
+    "name": "vue",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host ",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@fawmi/vue-google-maps": "^0.9.79",
+        "@headlessui/vue": "^1.7.14",
+        "@heroicons/vue": "^2.0.18",
+        "@tailwindcss/forms": "^0.5.4",
+        "axios": "^1.4.0",
+        "vue": "^3.3.4",
+        "vue-router": "^4.0.13",
+        "vue3-geolocation": "^1.0.0",
+        "vue3-google-map": "^0.15.0",
+        "vuex": "^4.1.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.26",
+        "tailwindcss": "^3.3.3",
+        "vite": "^4.4.0"
+    }
+}
